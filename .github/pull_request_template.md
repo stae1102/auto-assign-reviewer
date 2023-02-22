@@ -18,22 +18,24 @@ What kind of change does this PR introduce?
 
 <!-- Please describe the current behavior that you are modifying, or link to a relevant issue. -->
 
-Issue Number: N/A
-Jira ticket: N/A
-Figma link: N/A
+Issue Number: N/A  
+Jira ticket: N/A  
+Figma link: N/A  
 
 ## 🔑 Key Changes
 
+<!-- Please list up briefly what changes there are -->
+
 ## 📃 Description
 
-### Photo for reference
+<!-- Please describe how the codes have been changed, and how it works, etc. -->
+
+### Photos or screenshots of the codes applied
 
 ## 🧑🏻‍💻 To Reviewers
 
-- [ ] Yes
-- [ ] No
-
 <!-- If this PR contains a breaking change, please describe the impact and migration path for existing applications below. -->
+<!-- Or just tell what you want reviewers to know -->
 
 ## 💡 Other information
 

@@ -33,16 +33,15 @@ reviewGroups:
 useAssigneeGroups: false
 # Assignee를 그룹으로 나눌 수 있습니다.
 # GitHub username을 사용합니다.
-# assigneeGroups:
-#   groupA:
-#     - assigneeA
-#     - assigneeB
-#     - assigneeC
-#   groupB:
-#     - assigneeD
-#     - assigneeE
-#     - assigneeF
-
+assigneeGroups:
+  groupA:
+    - stae1102
+    # - assigneeB
+    # - assigneeC
+  groupB:
+    - stae1102
+    # - assigneeE
+    # - assigneeF
 # 특정 키워드가 포함돼 있을 때 Reviewer를 추가하지 않도록 하는 키워드입니다.
 # skipKeywords:
 #   - wip

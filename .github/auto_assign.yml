@@ -1,8 +1,8 @@
 # Reviewer를 PR에 추가하고자 할 때 true로 설정하세요.
 addReviewers: true
 
-# Assignee를 PR에 추가하고자 할 때 true로 설정하세요.
-addAssignees: false
+# Author로 설정하여 PR 생성자를 assignee로 설정합니다.
+addAssignees: author
 
 # PR에 추가된 reviewer의 수
 # 0으로 설정해 모든 reviewer를 추가할 수 있습니다 (기본값: 0)
@@ -25,13 +25,12 @@ reviewGroups:
     # - reviewerB
     # - reviewerC
   groupB:
-    # - reviewerD
+    - seongtaeRepository
     # - reviewerE
     # - reviewerF
 
 # true로 설정하여 다른 그룹으로부터 PR에 assignee를 추가할 수 있습니다.
 useAssigneeGroups: false
-
 # Assignee를 그룹으로 나눌 수 있습니다.
 # GitHub username을 사용합니다.
 # assigneeGroups:
@@ -47,6 +46,3 @@ useAssigneeGroups: false
 # 특정 키워드가 포함돼 있을 때 Reviewer를 추가하지 않도록 하는 키워드입니다.
 # skipKeywords:
 #   - wip
-
-# Author로 설정하여 PR 생성자를 assignee로 설정합니다.
-addAssignees: author
